@@ -1,0 +1,94 @@
+.section-title{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+.section-title img{
+    width: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+}
+.list-color{
+    color: #FF5400;
+}
+.banner{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+   max-width: 100%;
+    height: 500px ;
+    background-size: cover;
+background-repeat: no-repeat;
+
+border-radius: 16px;
+
+}
+.banner-title{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+text-align: center;
+padding-top: 170px;
+}
+.banner-text{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+}
+#banner-input{
+    width: 174px;
+height: 32px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.btn-primary{
+    width: 174px;
+height: 32px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+}
+.input{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+margin-left: 250px;
+margin-top: 50px;
+
+}
+#selection{
+    color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+    width: 25vh;
+    border-radius: 8px;
+    height: 32px;
+    border: none;
+}
